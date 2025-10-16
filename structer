@@ -1,0 +1,14 @@
+strategy-pattern/
+│
+├── src/
+│   ├── payment/
+│   │   ├── PaymentStrategy.java (interface)
+│   │   ├── CreditCard.java (implements PaymentStrategy)
+│   │   ├── PayPal.java (implements PaymentStrategy)
+│   │   ├── Crypto.java (implements PaymentStrategy)
+│   │   └── Processor.java (context)
+│   │
+│   └── cmd/
+│       └── Main.java (client/entry point)
+│
+└── .gitignore
